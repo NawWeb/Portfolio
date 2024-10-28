@@ -1,0 +1,17 @@
+#footer footer{
+    padding: 16px 0;
+    background-color: var(--main-color);
+}
+#footer footer h5{
+    color: var(--color);
+    font-weight: 300;
+    font-family: var(--font);
+    text-align: center;
+}
+#footer footer h5 span{
+    padding: 6px 10px;
+    background-color: var(--color);
+    color: var(--overlay);
+    font-weight: bold;
+    border-radius: 10px;
+}

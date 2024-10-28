@@ -1,0 +1,39 @@
+#service{
+    padding: 100px 0;
+}
+#service .service_main .heading{
+    padding: 10px 10px;
+    background-color: var(--main-color);
+    color: var(--color);
+    font-weight: var(--heading);
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 140px;
+}
+#service .service_main .service_item{
+    background-color: var(--main-color);
+    padding: 20px 0;
+}
+#service .service_main .service_item .service_inner{
+    padding: 20px 20px;
+}
+#service .service_main .service_item .service_inner h3{
+    color: var(--color);
+    font-weight: 500;
+    font-family: var(--font);
+    transition: var(--speed);
+}
+#service .service_main .service_item .service_inner p{
+    color: var(--color);
+    font-weight: 300;
+    font-family: var(--font);
+    letter-spacing: 2px;
+    padding-top: 10px;
+    transition: var(--speed);
+}
+#service .service_main .service_item:hover h3{
+    color: var(--hover);
+}
+#service .service_main .service_item:hover p{
+    color: var(--hover);
+}

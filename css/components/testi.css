@@ -1,0 +1,103 @@
+#testi{
+    padding: 100px 0;
+}
+#testi .testi_main .heading{
+    padding: 10px 10px;
+    background-color: var(--main-color);
+    color: var(--color);
+    font-weight: var(--heading);
+    font-family: var(--font);
+    text-align: center;
+    margin-bottom: 100px;
+}
+#testi .testi_main .testi_head{
+    font-weight: 500;
+    font-family: var(--font);
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+#testi .testi_main .testi_pera{
+    color: var(--overlay);
+    font-weight: 300;
+    font-family: var(--font);
+    text-align: center;
+    text-transform: capitalize;
+}
+#testi .testi_main .testi_item .testi_inner{
+    padding: 30px 50px;
+    border: 2px solid var(--main-color);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#testi .testi_main .testi_item .testi_inner .testi_text{
+    text-align: center;
+    padding: 30px 20px;
+}
+#testi .testi_main .testi_item .testi_inner .testi_text h3{
+    color: var(--color);
+    background-color: var(--main-color);
+    font-weight: 500;
+    font-family: var(--font);
+    margin-top: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#testi .testi_main .testi_item .testi_inner .testi_text h6{
+    color: var(--overlay);
+    font-weight: 300;
+    font-family: var(--font);
+    padding: 8px 0;
+}
+#testi .testi_main .testi_item .testi_inner .testi_text p{
+    color: var(--overlay);
+    font-weight: 300;
+    font-family: var(--font);
+    padding: 8px 10px;
+}
+#testi .testi_main .testi_item .testi_inner .testi_shape{
+    background-color: var(--main-color);
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+}
+#testi .testi_main .testi_item .testi_inner .testi_shape img{
+    width: 92%;
+    height: 100%;
+    border: 2px solid var(--main-color);
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+}
+#testi .testi_main .slick-dots{
+    text-align: center;
+    margin: 10px 0;
+}
+#testi .testi_main .slick-dots li{
+    padding: 0 10px;
+}
+#testi .testi_main .slick-dots li button{
+    color: var(--main-color);
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: var(--font);
+    border: none;
+}
+#testi .testi_main .slick-dots li.slick-active button{
+    border-bottom: 1px solid var(--overlay);
+    color: var(--overlay);
+}

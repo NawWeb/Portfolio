@@ -1,0 +1,51 @@
+#bannar{
+    padding: 200px 0;
+    background: linear-gradient(#0000006e,#0000006e),url(../../images/bannar.jpg)no-repeat center/cover;
+    width: 100%;
+}
+/* typed js */
+.typed-cursor{
+    display: none;
+}
+/* typed js */
+#bannar .bannar_main .bannar_item .bannar_inner{
+    text-align: left;
+}
+#bannar .bannar_main .bannar_item .bannar_inner h3{
+    color: var(--color);
+    font-weight: 500;
+    font-family: var(--font);
+}
+#bannar .bannar_main .bannar_item .bannar_inner h1{
+    color: var(--color);
+    font-weight: 700;
+    font-family: var(--font);
+    padding-bottom: 10px;
+}
+#bannar .bannar_main .bannar_item .bannar_inner h2{
+    color: var(--color);
+    font-weight: 300;
+    font-family: var(--font);
+    padding-bottom: 10px;
+}
+#bannar .bannar_main .bannar_item .bannar_inner h2 span{
+    padding-left: 10px;
+    font-size: var(--span);
+}
+#bannar .bannar_main .bannar_item .bannar_inner p{
+    color: var(--color);
+    font-weight: 500;
+    font-family: var(--font);
+    padding-bottom: 10px;
+}
+#bannar .bannar_main .bannar_item .bannar_inner .btn{
+    background-color: var(--color);
+    font-weight: 500;
+    font-family: var(--font);
+    border: 1px solid var(--color);
+    transition: var(--speed);
+}
+#bannar .bannar_main .bannar_item .bannar_inner .btn:hover{
+    background-color: transparent;
+    color: var(--color);
+}
